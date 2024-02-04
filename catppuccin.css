@@ -49,7 +49,6 @@
     border: 2px solid var(--lavender);
     background: var(--tridactyl-bg);
     border-radius: 1em;
-    height: 70vh;
 }
 
 #tridactyl-input {
@@ -61,6 +60,7 @@
     background: var(--tridactyl-bg);
     padding-left: unset;
     padding: 1rem;
+    border-radius: 1em;
 }
 
 #completions table {
@@ -91,6 +91,7 @@
     width: 100%;
     border-top: unset;
     order: 2;
+    border-radius: 1em;
 }
 
 /* Olie doesn't know how CSS inheritance works */
