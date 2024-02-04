@@ -48,6 +48,8 @@
     order: 1;
     border: 2px solid var(--lavender);
     background: var(--tridactyl-bg);
+    border-radius: 1em;
+    height: 70vh;
 }
 
 #tridactyl-input {
