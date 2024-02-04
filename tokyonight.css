@@ -48,7 +48,6 @@
     order: 1;
     border: 2px solid var(--lavender);
     background: var(--tridactyl-bg);
-    border-radius: 1.
 }
 
 #tridactyl-input {
@@ -73,14 +72,14 @@
 }
 
 #completions > div {
-    max-height: calc(20 * var(--option-height));
+    max-height: calc(15 * var(--option-height));
     min-height: calc(10 * var(--option-height));
 }
 
 /* COMPLETIONS */
 
 #completions {
-    --option-height: 1.4em;
+    --option-height: 1.1em;
     color: var(--tridactyl-fg);
     background: var(--tridactyl-bg);
     display: inline-block;
@@ -155,7 +154,7 @@
 #cmdline_iframe {
     position: fixed !important;
     bottom: unset;
-    top: 25% !important;
+    top: 40% !important;
     left: 10% !important;
     z-index: 2147483647 !important;
     width: 80% !important;
